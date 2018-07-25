@@ -1,3 +1,5 @@
+import mixpanel from "mixpanel-browser";
+
 function mixpanel_base() {
     mixpanel.init("new token");
     mixpanel.init("new token", { persistence_name: "config" });
